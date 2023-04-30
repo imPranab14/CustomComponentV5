@@ -138,6 +138,16 @@ body{
     padding: 0.1rem 0.7rem;
     
   }
+  .CardBtnNew {
+    background-color: #2f80ed;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 0.25rem 1rem;
+    
+  }
   .ui-row-card{
     display: flex;
     justify-content: center;
@@ -176,5 +186,70 @@ body{
     align-items: center;
     align-content: center;
     justify-items: center;
+    padding: 0.6rem 0rem;
   }
   
+
+  /*-------------MobileView--------*/
+@media only screen and (max-width: 600px) {
+  .VideoCard {
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap !important;
+    row-gap: 0.3rem;
+  }
+  .ui-row-card{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    /* row-gap: 1rem; */
+    row-gap: revert;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .card{
+    width: 75%;
+    height: auto;
+    
+  }
+  .ui-row-card{
+    row-gap: 1rem !important ;
+  }
+  .ui-rowNew {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+.hero-content{
+  width: 90% !important;
+}
+.hero-contentImgage{
+  display: none;
+}
+.caption{
+  font-size: 2rem !important;
+  text-align: center;
+  margin-top: 1rem !important;
+}
+.Text2{
+  text-align: center;
+  font-size: 1rem !important;
+}
+.Text3 {
+  
+  font-size: 1rem !important;
+}
+.what-we-do::before{
+  display: none;
+}
+.TitleSection{
+  font-size: 1.5rem !important;
+}
+  
+}

@@ -44,42 +44,43 @@ const Carousels = () => {
           <div className="CardHeader">Demo</div>
           <div className="fgdfhgdh">
             <div className="CardText VideoCard">
-              <div className="cardNew CardSpace">
-                <div className="card-body CardAlign">
+            <div className="cardNew CardSpace ">
+                <div className="card-body CardAlign CardAlignNew">
                   <p>Sortable Table</p>
-                  <button>View</button>
+                  <button className="CardBtnNew">&#9654; View</button>
                 </div>
               </div>
               <div className="cardNew CardSpace ">
                 <div className="card-body CardAlign CardAlignNew">
                   <p>Filterable Table</p>
-                  <button>View</button>
+                  <button className="CardBtnNew">&#9654; View</button>
                 </div>
               </div>
-              <div className="cardNew">
-                <div className="card-body CardAlign">
+              <div className="cardNew CardSpace ">
+                <div className="card-body CardAlign CardAlignNew">
                   <p>Editable Table</p>
-                  <button>View</button>
+                  <button className="CardBtnNew">&#9654; View</button>
                 </div>
               </div>
-              <div className="cardNew">
-                <div className="card-body CardAlign">
-                  <p>Sort Filter and </p>
-                  <button>View</button>
+        
+              <div className="cardNew CardSpace ">
+                <div className="card-body CardAlign CardAlignNew">
+                  <p>Sort Filter and Edit together Table</p>
+                  <button className="CardBtnNew">&#9654; View</button>
                 </div>
               </div>
-              <div className="cardNew">
-                <div className="card-body CardAlign">
-                  <p>Expandable Table t</p>
-                  <button>View</button>
+              <div className="cardNew CardSpace ">
+                <div className="card-body CardAlign CardAlignNew">
+                  <p>Expandable Table With component</p>
+                  <button className="CardBtnNew">&#9654; View</button>
                 </div>
               </div>
-              <div className="cardNew">
-                <div className="card-body CardAlign">
-                  <p>CRUD Import  </p>
-                  <button>View</button>
+              <div className="cardNew CardSpace ">
+                <div className="card-body CardAlign CardAlignNew">
+                  <p>CRUD Import Export Table</p>
+                  <button className="CardBtnNew">&#9654; View</button>
                 </div>
-              </div>
+              </div>  
             </div>
           </div>
         </div>
